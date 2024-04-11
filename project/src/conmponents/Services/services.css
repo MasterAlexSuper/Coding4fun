@@ -1,0 +1,21 @@
+.serviceImg {
+   height: 42px;
+   width: 42px;
+}
+
+.servicePart {
+   max-width: 500px;
+}
+
+.serviceText {
+   width: 436px;
+}
+
+.serviceText p {
+   font-size: 13px;
+
+}
+
+.services {
+width: 500px;  
+}

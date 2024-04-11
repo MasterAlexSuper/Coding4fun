@@ -1,0 +1,129 @@
+.form {
+   padding-top: 83px;
+   background: #709DCA;
+   padding-bottom: 347px;
+   margin-bottom: 162px;
+}
+
+form {
+   width: 1080px;
+   margin: 0 auto;
+}
+
+.w-70 {
+   width: 280px;
+}
+
+.w-211 {
+   width: 211px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-moz-number-spin-box {
+   -webkit-appearance: none;
+   -moz-appearance: textfield;
+   /* Firefox */
+   appearance: none;
+   margin: 0;
+}
+
+.user {
+   position: absolute;
+   top: 50%;
+   right: 10px;
+   transform: translateY(-50%);
+   width: 20px;
+   /* Ширина иконки */
+   height: 20px;
+   /* Высота иконки */
+   background-image: url('./icons/user_icon.png');
+   background-size: cover;
+}
+
+.email {
+   position: absolute;
+   left: 302px;
+   top: 50%;
+   right: 10px;
+   transform: translateY(-50%);
+   width: 20px;
+   /* Ширина иконки */
+   height: 20px;
+   /* Высота иконки */
+   background-image: url('./icons/mail_icon.png');
+   background-size: cover;
+}
+
+.phone {
+   position: absolute;
+   left: 591px;
+   top: 50%;
+   right: 10px;
+   transform: translateY(-50%);
+   width: 20px;
+   /* Ширина иконки */
+   height: 20px;
+   /* Высота иконки */
+   background-image: url('./icons/phone_icon.png');
+   background-size: cover;
+}
+
+.pc {
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-280px);
+   width: 650px;
+
+   /* Ширина иконки */
+   height: 343px;
+   /* Высота иконки */
+   background-image: url('./macbookFrame.png');
+   background-size: cover;
+}
+
+.pc_disp {
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-262px);
+   width: 445px;
+
+   /* Ширина иконки */
+   height: 264px;
+   /* Высота иконки */
+   background-image: url('./macbook_payload.png');
+   background-size: cover;
+   z-index: 5;
+}
+
+
+.radio {
+   position: relative;
+ }
+ 
+ .custom-radio {
+   position: absolute;
+   top: calc(100% + 86px); /* Располагаем радио-кнопки под текстом */
+   left: 50%; /* Центрируем по горизонтали */
+   transform: translateX(-50%); /* Корректируем центрирование */
+ }
+ 
+ .customradio {
+   appearance: none;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   width: 12px;
+   height: 12px;
+   border-radius: 50%; /* Превращаем квадрат в круг */
+   border: 2px solid #DEDFE0; /* Цвет обводки */
+   outline: none;
+   cursor: pointer;
+   margin-right: 10px; /* Добавляем немного отступа между радио-кнопками */
+ }
+ 
+ .customradio:checked {
+   border: 2px solid #1CA8DD; /* Цвет обводки */
+
+ }

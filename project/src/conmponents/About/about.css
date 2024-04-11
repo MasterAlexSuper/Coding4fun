@@ -1,0 +1,31 @@
+.about {
+   background: #FFBB42;
+   height: 620px;
+   background-image: url("./about_bg.png");
+   background-repeat: no-repeat;
+}
+
+.aboutWraper {
+   position: absolute;
+   top: 155px;
+   transform: translateX(80px);
+   left: 50%;
+   width: 600px;
+}
+
+.aboutButton {
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 19.95px;
+   width: 145px;
+   height: 46px;
+
+}
+
+.aboutText {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: left;
+
+}
